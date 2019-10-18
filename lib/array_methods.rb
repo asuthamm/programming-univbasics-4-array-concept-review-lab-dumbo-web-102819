@@ -8,8 +8,15 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  max=array[0]
-  i 
+  max=0 
+  i=0
+  while i < arr.length
+    if arr[i] > max 
+      max = arr[i]
+    end
+    i += 1
+  end
+  return max
 end
 
 def find_min_value(array)
