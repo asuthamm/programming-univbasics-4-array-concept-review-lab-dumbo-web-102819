@@ -1,7 +1,7 @@
 def find_element_index(array, value_to_find)
-  array.each do |ele|
+  array.each.with_index do |ele,idx|
     if ele == value_to_find
-      return 
+      return idx
   end
 end
 
